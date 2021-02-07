@@ -31,12 +31,11 @@
 ### 📎 Features 
 
 - [x] Criação do Ponto de Coleta
-- [x] Upload de imagem do Ponto de Coleta
+- [x] Anexação de imagem do Ponto de Coleta
 - [x] Tema Light/Dark mode
 - [x] Detalhes da Ponto de Coleta
 - [x] Atualização do cadastro do Ponto de Coleta
-- [x] Substituição ou Atualização das Imagens
-- [x] Visualização geográfica do Ponte de Coleta
+- [x] Substituição ou Atualização da Imagem
 
 ### 💻 Projeto
 
@@ -82,11 +81,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Esse projeto foi utilizou das seguintes lib:
 
 - express
-- fileSystem
-- multer
 - npm
-- handlebars
-- leaflet
+- nunjucks
+- sqlite3
 
 ### 📝 Licença
 
