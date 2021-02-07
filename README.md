@@ -1,6 +1,8 @@
-<p align="center">
+<h4 align="center">
   <img src="https://github.com/gustavo-nt/ecoleta_1.0/blob/master/public/assets/logo.svg" alt="logo" height="65"/>
-</p>
+  <br><br>
+  ♻️ Seu marketplace de coleta de resíduos ♻️
+</h4>
 
 <h1 align="center">
     🚀 NLW 1
