@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% set bodyId = "page-search-results" %}
+
+{% block title %}
+    <title>Resultado da pesquisa</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="./styles/search-results.css">
+{% endblock styles %}
+
+{% block content %}
+    {% include "partials/page-header.html" %}
+    <main>
+        {% if total > 0 %}
+            <h4>
+                <strong>{{total}} pontos</strong> encontrados
+            </h4>
+
+            <div class="cards">
+                {% for place in places %}
+                    <div class="card">
+                        <img src="{{ place.image }}" alt="{{ place.name }}">
+                        <div class="edit">
+                            <h1>{{ place.name }}</h1>
+                            <a href="/edit-search?search={{ search }}&id={{ place.id }}">
+                                <img src="./assets/pencil-tool.svg" alt="Edit Icon" class="hd">
+                            </a>
+                        </div>
+                        <h3>{{ place.items }}</h3>
+                        <p>
+                            {{ place.city }}, {{ place.state }} <br/>
+                            {{ place.address }} <br/>
+                            {{ place.address2 }}
+                        </p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="no-results">
+                <h2>Ops...Nenhum registro da busca foi encontrado!</h2>
+                <img src="./assets/no-results.png" alt="Nenhum registro encontrado!">
+            </div>
+        {% endif %}
+    </main>
+{% endblock content %}
+
+{% block scripts %}
+    <script src="./scripts/search-results.js"></script>
+    <script src="./scripts/input-toggle.js"></script>
+    <script src="./scripts/dark-mode.js"></script>
+{% endblock scripts %}
+
