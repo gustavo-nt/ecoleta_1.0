@@ -44,7 +44,7 @@
 O Ecoleta é uma aplicação que visa ajudar pessoas que tenham o interesse de descartar resíduos que possam agredir o meio ambiente em locais adequados onde poderam ser reciclados e/ou reaproveitados. Projeto desenvolvido durante a semana do Next Level Week 1ª Edição. 
 
 ### ✅ Demonstração
-<img src="https://github.com/gustavo-nt/happy/blob/master/public/img/Happy.PNG" />
+<img src="https://github.com/gustavo-nt/ecoleta_1.0/blob/master/public/assets/home_ecoleta.png" />
 
 ### ⚙ Pré-requisitos
 
