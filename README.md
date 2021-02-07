@@ -1,4 +1,4 @@
-p align="center">
+<p align="center">
   <img src="https://github.com/gustavo-nt/happy/blob/master/public/img/logo-happy.png" alt="logo" height="65"/>
 </p>
 
